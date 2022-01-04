@@ -1,6 +1,7 @@
 body{
     font-family: 'The nautigal', cursive;
     font-size: 50px;
+    margin: 0;
 
 }
 .golden-color{
@@ -22,7 +23,13 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-color: #E2B23A;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
     padding: 10px 30px;
     border-radius: 7px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
